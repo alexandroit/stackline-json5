@@ -1,6 +1,6 @@
 {
   "name": "@stackline/json5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON for Humans",
   "main": "lib/index.js",
   "module": "dist/index.mjs",
@@ -33,8 +33,12 @@
     "url": "git+https://github.com/alexandroit/stackline-json5.git"
   },
   "keywords": [
-    "json",
+    "stackline",
+    "npm-package",
     "json5",
+    "typescript",
+    "nodejs",
+    "json",
     "es5",
     "es2015",
     "ecmascript"
@@ -49,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/alexandroit/stackline-json5/issues"
   },
-  "homepage": "https://github.com/alexandroit/stackline-json5#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/json5/",
   "devDependencies": {
     "core-js": "^2.6.5",
     "eslint": "^5.15.3",

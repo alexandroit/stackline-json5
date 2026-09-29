@@ -1,6 +1,51 @@
-# JSON5 – JSON for Humans
+# @stackline/json5
 
-[![Build Status](https://app.travis-ci.com/json5/json5.svg?branch=main)][Build
+> JSON for Humans.
+
+[![npm version](https://img.shields.io/npm/v/@stackline/json5.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/json5)
+[![license](https://img.shields.io/npm/l/@stackline/json5.svg?style=flat-square)](https://github.com/alexandroit/stackline-json5)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-json5-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-json5)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/json5/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/json5/)** | **[npm](https://www.npmjs.com/package/@stackline/json5)** | **[Issues](https://github.com/alexandroit/stackline-json5/issues)** | **[Repository](https://github.com/alexandroit/stackline-json5)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/json5` is the Stackline-maintained distribution of `json5@2.2.3`. It is an independent continuation of [json5](https://github.com/json5/json5); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/json5@1.0.1` |
+| API target | `json5@2.2.3` |
+| Supported Node.js | `>=6` |
+| License | `MIT` |
+| Main entry | `lib/index.js` |
+| Module entry | `dist/index.mjs` |
+| Types | `lib/index.d.ts` |
+| CLI | `json5` |
+| Runtime dependencies | `none` |
+
+## Installation
+
+```bash
+npm install @stackline/json5
+```
+
+Preserve existing imports and plugin resolution with an npm alias:
+
+```bash
+npm install json5@npm:@stackline/json5
+```
+
+## Usage and API reference
+
 Status] [![Coverage
 Status](https://coveralls.io/repos/github/json5/json5/badge.svg)][Coverage
 Status]
@@ -101,23 +146,23 @@ specification](https://json5.github.io/json5-spec/).
 ## Installation and Usage
 ### Node.js
 ```sh
-npm install json5
+npm install @stackline/json5
 ```
 
 #### CommonJS
 ```js
-const JSON5 = require('json5')
+const JSON5 = require('@stackline/json5')
 ```
 
 #### Modules
 ```js
-import JSON5 from 'json5'
+import JSON5 from '@stackline/json5'
 ```
 
 ### Browsers
 #### UMD
 ```html
-<!-- This will create a global `JSON5` variable. -->
+
 <script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
 ```
 
@@ -204,7 +249,7 @@ converting JSON5 to JSON and for validating the syntax of JSON5 documents.
 
 ### Installation
 ```sh
-npm install --global json5
+npm install --global @stackline/json5
 ```
 
 ### Usage
@@ -280,3 +325,25 @@ supporter, contributing multiple patches and ideas.
 [Jordan Tucker](https://github.com/jordanbtucker) has aligned JSON5 more closely
 with ES5, wrote the official JSON5 specification, completely rewrote the
 codebase from the ground up, and is actively maintaining this project.
+
+## Credits and original authors
+
+- Original project: [json5](https://github.com/json5/json5).
+- Aseem Kishore.
+- Max Nanasy.
+- Andrew Eisenberg.
+- Jordan Tucker.
+- Copyright (c) 2012-2018 Aseem Kishore, and [others].
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
