@@ -4,7 +4,7 @@
     {
       "name": "@stackline/json5",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -20,8 +20,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/json5/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/json5/-/json5-1.0.0.tgz",
       "baselineIntegrity": "sha512-uHYH+4jtYJhDltCh9kioT73BOK9OBosymNjRLmfWb3aDOPJr4dpee4gLuAGe+Lr6RuacnLm1KuPTbD53uAwNVw==",
-      "expectedSha512": "c2d0e576152f5238dcaf397de75999a758c59804b709ba688913427701eccdb335bbea0012647e7acad8044f6ba5d69b37c343abe30398af9fbdb2d054993880",
-      "tag": "docs-stackline-json5-v1.0.1"
+      "expectedSha512": "fa6cd07909c43b4127c28312794e0caa23e441aafb973720120ba54f3873482a43560a705441c032cf3ecf6922f4abf1c9a14e851917005180a1cb14211e8c91",
+      "tag": "docs-stackline-json5-v1.0.2"
     }
   ]
 }
