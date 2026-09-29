@@ -1,0 +1,27 @@
+{
+  "repository": "alexandroit/stackline-json5",
+  "packages": [
+    {
+      "name": "@stackline/json5",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "json5",
+        "typescript",
+        "nodejs",
+        "json",
+        "es5",
+        "es2015",
+        "ecmascript"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/json5/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/json5/-/json5-1.0.0.tgz",
+      "baselineIntegrity": "sha512-uHYH+4jtYJhDltCh9kioT73BOK9OBosymNjRLmfWb3aDOPJr4dpee4gLuAGe+Lr6RuacnLm1KuPTbD53uAwNVw==",
+      "expectedSha512": "c2d0e576152f5238dcaf397de75999a758c59804b709ba688913427701eccdb335bbea0012647e7acad8044f6ba5d69b37c343abe30398af9fbdb2d054993880",
+      "tag": "docs-stackline-json5-v1.0.1"
+    }
+  ]
+}
