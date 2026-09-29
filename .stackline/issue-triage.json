@@ -1,0 +1,236 @@
+{
+  "checkedAt": "2026-09-29T00:21:55.836825+00:00",
+  "upstreamRepository": "json5/json5",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 348,
+      "title": "migrate to ESModules",
+      "url": "https://github.com/json5/json5/issues/348"
+    },
+    {
+      "number": 192,
+      "title": "Handling invalid unicode escapes",
+      "url": "https://github.com/json5/json5/issues/192"
+    },
+    {
+      "number": 292,
+      "title": "Support Integers outside the range `[-(2**53)+1, (2**53)-1]`",
+      "url": "https://github.com/json5/json5/issues/292"
+    },
+    {
+      "number": 205,
+      "title": "Move CLI to its own package",
+      "url": "https://github.com/json5/json5/issues/205"
+    },
+    {
+      "number": 240,
+      "title": "ESM `module` export differs from `main` export",
+      "url": "https://github.com/json5/json5/issues/240"
+    },
+    {
+      "number": 363,
+      "title": "json5",
+      "url": "https://github.com/json5/json5/issues/363"
+    },
+    {
+      "number": 357,
+      "title": "VS Code extension",
+      "url": "https://github.com/json5/json5/issues/357"
+    },
+    {
+      "number": 232,
+      "title": "Very long string crash nodejs",
+      "url": "https://github.com/json5/json5/issues/232"
+    },
+    {
+      "number": 350,
+      "title": "Missing LICENSE file in the repo of ver 0.4.0",
+      "url": "https://github.com/json5/json5/issues/350"
+    },
+    {
+      "number": 138,
+      "title": "JSON5 TextMate bundle",
+      "url": "https://github.com/json5/json5/issues/138"
+    },
+    {
+      "number": 122,
+      "title": "Generate JSON5",
+      "url": "https://github.com/json5/json5/issues/122"
+    },
+    {
+      "number": 346,
+      "title": "CLI should process consecutive JSONs",
+      "url": "https://github.com/json5/json5/issues/346"
+    },
+    {
+      "number": 345,
+      "title": "Focus on ESNext",
+      "url": "https://github.com/json5/json5/issues/345"
+    },
+    {
+      "number": 343,
+      "title": "question: commented unreachable code",
+      "url": "https://github.com/json5/json5/issues/343"
+    },
+    {
+      "number": 342,
+      "title": "transitive dependency 'minimist' needs to be updated by rebuilding",
+      "url": "https://github.com/json5/json5/issues/342"
+    },
+    {
+      "number": 339,
+      "title": "Use .substring() instead of the deprecated .substr()",
+      "url": "https://github.com/json5/json5/issues/339"
+    },
+    {
+      "number": 323,
+      "title": "Provide `exports` config in `packages.json`",
+      "url": "https://github.com/json5/json5/issues/323"
+    },
+    {
+      "number": 287,
+      "title": "Module '\"node_modules/json5/lib/index\"' has no default export",
+      "url": "https://github.com/json5/json5/issues/287"
+    },
+    {
+      "number": 185,
+      "title": "Implement proposal-json-parse-with-source API",
+      "url": "https://github.com/json5/json5/issues/185"
+    },
+    {
+      "number": 207,
+      "title": "Add option to return objects as Maps to support ordered properties",
+      "url": "https://github.com/json5/json5/issues/207"
+    },
+    {
+      "number": 91,
+      "title": "Consider serializing RegExp objects to strings",
+      "url": "https://github.com/json5/json5/issues/91"
+    },
+    {
+      "number": 150,
+      "title": "Sync depedencies",
+      "url": "https://github.com/json5/json5/issues/150"
+    },
+    {
+      "number": 234,
+      "title": "Improvements in string parse",
+      "url": "https://github.com/json5/json5/issues/234"
+    },
+    {
+      "number": 164,
+      "title": "Possible performance improvements.",
+      "url": "https://github.com/json5/json5/issues/164"
+    },
+    {
+      "number": 51,
+      "title": "Portable test data set",
+      "url": "https://github.com/json5/json5/issues/51"
+    },
+    {
+      "number": 85,
+      "title": "The strings are not optimized on nodejs",
+      "url": "https://github.com/json5/json5/issues/85"
+    },
+    {
+      "number": 239,
+      "title": "Publishing Basic Performance Metrics Would be Helpful",
+      "url": "https://github.com/json5/json5/issues/239"
+    },
+    {
+      "number": 119,
+      "title": "Replace comments with spaces instead of stripping",
+      "url": "https://github.com/json5/json5/issues/119"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 177,
+      "title": "Options for preserving comments when editing a JSON5 file by script",
+      "url": "https://github.com/json5/json5/issues/177"
+    },
+    {
+      "number": 358,
+      "title": "JSONH: New format based on JSON5 and HJSON",
+      "url": "https://github.com/json5/json5/issues/358"
+    },
+    {
+      "number": 351,
+      "title": "\ud83c\udfc1 Race of Sloths: The Open Source Developer Challenge is about to start",
+      "url": "https://github.com/json5/json5/issues/351"
+    },
+    {
+      "number": 344,
+      "title": "JSON5.stringify() option: `trailingCommas`",
+      "url": "https://github.com/json5/json5/issues/344"
+    },
+    {
+      "number": 336,
+      "title": "Add `comma-dangle` option",
+      "url": "https://github.com/json5/json5/issues/336"
+    },
+    {
+      "number": 153,
+      "title": "Allow underscore to separate numbers",
+      "url": "https://github.com/json5/json5/issues/153"
+    },
+    {
+      "number": 341,
+      "title": "Cannot stringify \"\\^@\"",
+      "url": "https://github.com/json5/json5/issues/341"
+    },
+    {
+      "number": 166,
+      "title": "How to format JSON5 file in vscode?",
+      "url": "https://github.com/json5/json5/issues/166"
+    },
+    {
+      "number": 337,
+      "title": "Online JSON5 Editor(Formatter) is misleading?",
+      "url": "https://github.com/json5/json5/issues/337"
+    },
+    {
+      "number": 334,
+      "title": "add key property support ?",
+      "url": "https://github.com/json5/json5/issues/334"
+    },
+    {
+      "number": 299,
+      "title": "json5 latest is now 1.0.2 on npmjs - intentional?",
+      "url": "https://github.com/json5/json5/issues/299"
+    },
+    {
+      "number": 327,
+      "title": "Multiline JSON doesn't multiline",
+      "url": "https://github.com/json5/json5/issues/327"
+    },
+    {
+      "number": 201,
+      "title": "Serialize comments",
+      "url": "https://github.com/json5/json5/issues/201"
+    },
+    {
+      "number": 295,
+      "title": "Prototype Pollution in JSON5",
+      "url": "https://github.com/json5/json5/issues/295"
+    },
+    {
+      "number": 302,
+      "title": "Support Template Literals using backticks?",
+      "url": "https://github.com/json5/json5/issues/302"
+    },
+    {
+      "number": 265,
+      "title": "New `stringify` configurability options?",
+      "url": "https://github.com/json5/json5/issues/265"
+    },
+    {
+      "number": 247,
+      "title": "Consider listing some other implementations on json5.org",
+      "url": "https://github.com/json5/json5/issues/247"
+    }
+  ],
+  "decision": "Maintenance adoption with preserved runtime payload. No runtime defect correction is claimed. Reports remain visible for subsequent targeted reproduction.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}
