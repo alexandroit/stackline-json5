@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/json5/)** | **[npm](https://www.npmjs.com/package/@stackline/json5)** | **[Issues](https://github.com/alexandroit/stackline-json5/issues)** | **[Repository](https://github.com/alexandroit/stackline-json5)**
 
-**Current package version:** `1.0.4`
+**Current package version:** `1.0.5`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/json5@1.0.4` |
+| Package | `@stackline/json5@1.0.5` |
 | API target | `json5@2.2.3` |
 | Supported Node.js | `>=6` |
 | License | `MIT` |
@@ -350,4 +350,4 @@ Use this repository's issue tracker for reproducible bugs and feature requests. 
 
 ## Upstream documentation
 
-The original upstream README is preserved in [README.upstream.md](README.upstream.md).
+The original upstream README is preserved in [UPSTREAM_README.md](UPSTREAM_README.md).
