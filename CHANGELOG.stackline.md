@@ -1,5 +1,11 @@
 # Stackline changelog
 
+## 1.0.4 - 2026-11-04
+
+- Publish the Stackline README with the correct package version.
+- Preserve the original upstream README separately; runtime files remain unchanged.
+- Verify the README inside the exact npm artifact before publication.
+
 ## 1.0.3
 
 - Update the development dependencies, Rollup plugins, and TAP runner to remove known high and critical development-tool vulnerabilities. Preserve the parser payload and regression coverage.
