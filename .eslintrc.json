@@ -2,7 +2,7 @@
     "root": true,
     "extends": [
         "standard",
-        "plugin:node/recommended"
+        "plugin:n/recommended"
     ],
     "rules": {
         "array-bracket-spacing": [
@@ -15,7 +15,13 @@
         ],
         "comma-dangle": [
             "error",
-            "always-multiline"
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline",
+                "functions": "never"
+            }
         ],
         "indent": [
             "error",
@@ -25,6 +31,51 @@
         "object-curly-spacing": [
             "error",
             "never"
+        ],
+        "n/no-process-exit": "off",
+        "prefer-const": "off",
+        "quotes": [
+            "error",
+            "single",
+            {
+                "avoidEscape": true
+            }
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": [
+                "lib/register.js"
+            ],
+            "rules": {
+                "n/no-deprecated-api": "off"
+            }
+        },
+        {
+            "files": [
+                "lib/unicode.js"
+            ],
+            "rules": {
+                "no-misleading-character-class": "off"
+            }
+        },
+        {
+            "files": [
+                "test/*.js"
+            ],
+            "rules": {
+                "quotes": "off",
+                "quote-props": "off",
+                "no-loss-of-precision": "off"
+            }
+        }
+    ],
+    "ignorePatterns": [
+        "scripts/",
+        "artifact/",
+        ".tap/"
+    ],
+    "plugins": [
+        "node"
+    ]
 }
